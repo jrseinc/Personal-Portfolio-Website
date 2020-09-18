@@ -1,41 +1,106 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jatin Srivastava- Drifted too far 404</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>Jatin Srivastava</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="o-404">
-  <h1 class="a-title">404</h1>
-  <p class="a-message">
-    You came to the wrong neighborhood <br><br>
-    -Jatin Srivastava
-  </p>
-  <div class="o-cat">
-    <div class="m-ears">
-      <div class="m-ear -right"></div>
-      <div class="m-ear -left"></div>
+    <header>
+        <nav class="main-nav">
+            <img src="./styles/img/logoDark.png" alt="logo">
+            <ul class="nav-links">
+                <li class="nav-links-item"><a href="#">About</a></li>
+                <li class="nav-links-item"><a href="#">Skills</a></li>
+                <li class="nav-links-item"><a href="#">Services</a></li>
+                <li class="nav-links-item"><a href="#">Works</a></li>
+            </ul>
+        </nav>
 
-    </div>
-    <div class="m-face">
-      <div class="m-eyes">
-        <div class="m-eye -left">
-          <div class="a-eyePupil"></div>
-        </div>
-        <div class="m-eye -right">
-          <div class="a-eyePupil"></div>
-        </div>
-      </div>
-      <div class="m-nose"></div>
-    </div>
+        <div class="header-main">
+            <h1 class="header-main-intro">Hi, I'm Jatin Srivastava <span>Front-End Developer.</span></h1>
+            <p class="header-main-brief">My job is to create your imagination into reality. I two have experience in designing beautiful landing pages as a Front-End Developer and UX/ UI designer. </p>
+            <button type="button" class="button-tour">take a tour</button>
 
-  </div>
-</div>
-<!-- partial -->
-  
+            <ul class="social-links">
+                <li class="social-item"><a href="https://github.com/jrseinc" target="_blank"><img src="./styles/img/Social/icons8-github-80.png" alt="github"></a></li>
+                <li class="social-item"><a href="https://www.instagram.com/jrseinc/" target="_blank"><img src="styles/img/Social/icons8-instagram-50.png" alt="instagram"></a></li>
+                <li class="social-item"><a href="https://twitter.com/jrseinc" target="_blank"><img src="styles/img/Social/icons8-twitter-50.png" alt="twitter"></a></li>
+                <li class="social-item"><a href="https://www.linkedin.com/in/jrseinc" target="_blank"><img src="styles/img/Social/icons8-linkedin-50.png" alt="linkedin"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="bio">
+        <div class="question">
+            <h2 class="bio-question">Who am <span>I</span>?</h2>
+            <p class="bio-subtext">The Boring Stuff</p>
+        </div>
+        <img src="./styles/img/Personperson.png" alt="person avatar" class="person-avatar">
+        <p class="bio-text">
+            I’m currently persuing my Bachelor’s Degree in Computer Science from a tier-3 college in Ghaziabad. I loved computers since my childhood and made it clear that I’m only gonna presure this field. <br><br>
+
+            I love illustrations and art especially those which are hand-drawn, and cause of this reason I fell in love with the art style of <span>Studio Ghibli</span>.<br><br>
+
+            For me, working on small projects is fun cause it helps me learn new things. I love doing <span>competetive programing</span> for fun.
+
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2 class="skill-head">Skills</h2>
+
+        <div class="skill-container">
+            <div class="skill-container-block">
+                <h3 class="skill-heading">Front-End</h3>
+                <ul class="front-end skill-item">
+                    <li>React</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SASS</li>
+                    <li>BootStrap</li>
+                </ul>
+            </div>
+            <div class="skill-container-block">
+                <h3 class="skill-heading">Back-End</h3>
+                <ul class="back-end skill-item">
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+            <div class="skill-container-block">
+                <h3 class="skill-heading">Misc.</h3>
+                <ul class="misc skill-item">
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Webflow</li>
+                    <li>Adobe XD</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="work">
+        <h1 class="work-heading">Work <span>&</span> Projects</h1>
+        <p class="work-discription">These are some of my recent work, feel free to browse through them. Feel free to click explore more button bellow to see my full catalogue.</p>
+
+        <img src="./styles/img/sample.png" alt="work sample">
+
+        <button type="button" class="explore-button">Explore More</button>
+    </section>
+
+    <section class="form">
+            <h1>Let's get in touch.</h1>
+            <p>Say hello</p>
+
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" value="your name">
+    </section>
 </body>
 </html>
