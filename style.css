@@ -21,9 +21,12 @@ html{
 }
 
 body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-container{
     width: 90%;
     margin: 0 auto;
-    font-family: 'Oswald', sans-serif;
 }
 
 /******HEADER********/
@@ -322,6 +325,9 @@ body{
 
     .logo-disc{
         grid-area: i;
+    }
+    .logo-disc-img{
+        margin-right: -5em;
     }
 }
 
