@@ -353,7 +353,7 @@ body{
     flex-direction: column;
     border-radius: 15px;
     background: #272727;
-    box-shadow: -1em 0 1rem #000;
+    /* box-shadow: -1em 0 1rem #000; */
     transition: 0.2s;
 }
 
@@ -378,6 +378,7 @@ body{
     filter: grayscale(100);
     transition: 0.7s;
     border-radius: 15px;
+    box-shadow: -0.5em 0 1rem #000;
 }
 
 .work-item img:hover{
