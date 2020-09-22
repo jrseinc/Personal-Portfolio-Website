@@ -511,6 +511,11 @@ body{
     font-size: 1rem;
 }
 
+.form input:focus,
+.form textarea:focus{
+    background-color: #d3d3d3;
+}
+
 .form label{
     font-weight: 300;
 }
