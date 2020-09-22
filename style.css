@@ -71,7 +71,7 @@ body{
     transition: 0.1s;
 } */
 .header-navigation-item a:hover{
-    border-bottom: 4px solid orangered;
+    border-bottom: 4px solid #ff4500;
     transition: 0.1s;
 }
 
@@ -458,12 +458,25 @@ body{
 /********FORM*******/
 /*******************/
 
+.form-container{
+    margin-bottom: 4.5em;
+}
+
 .form{
-    border: 2px solid black;
-    height: 800px;
+    /* border: 0.5px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
     margin: 0 auto;
+    gap: 2em;
+    margin-bottom: 2.5em;
+}
+
+.form-head{
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 2em;
 }
 
 .form-fullname{
@@ -480,4 +493,68 @@ body{
 
 .form-message{
     grid-column: 1/3;
+}
+
+/* .form-item{
+    border: 2px solid black;
+} */
+
+.form input, textarea{
+    box-sizing: border-box;
+    padding: 2em;
+    width: 100%;
+    display: inline-block;
+    background-color: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.form label{
+    font-weight: 300;
+}
+
+.form textarea{
+    height: 150px;
+}
+
+.form-button{
+    text-align: center;
+    display: block;
+    padding: 1em 3em;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #919090;;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: white;
+    transition: 0.1s;
+}
+
+.form-button:hover{
+    background-color: #6b6969;
+    box-shadow: 0 2px 7px black;
+}
+
+@media only screen and (max-width: 500px){
+    .form{
+        gap: 1em;
+    }
+    .form-fullname{
+        grid-column: 1/3;
+    }
+    
+    .form-email{
+        grid-column: 1/3;
+    }
+    
+    .form-subject{
+        grid-column: 1/3;
+    }
+    
+    .form-message{
+        grid-column: 1/3;
+    }
 }
