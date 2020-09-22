@@ -34,14 +34,17 @@ body{
     /* border: 2px solid black; */
     background-color: #eeeeee;
     text-align: center;
-    margin-top: 2em;
     margin-bottom: 7em;
+    background-image: url(./images/hero.png);
+    object-fit: cover;
+    width: 100%;
 }
 
 .header-navigation{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10em;
+    margin-left: 2em;
 }
 
 .header-navigation-container{
